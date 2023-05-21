@@ -1,0 +1,229 @@
+/* 
+    Created on : 29 Mar, 2023, 12:07:57 AM
+    Author     : Dev
+*/
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1.title {
+    margin-bottom: 1px;
+    z-index: 20;
+    position: relative;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 30px;
+        color: red;
+        font-size: 50px;
+        font-family: cursive;
+        margin-bottom: -35px;
+        margin-top: -10px;
+}
+.image{
+    margin-top: 50px;
+    margin-bottom: auto;
+    padding-left: 50px;
+    height: 68%;
+    border-radius: 10%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: stretch;
+    height: 100%;
+}
+
+.registerpagecontainer{
+    min-height: 100vh;
+    height: 100%;  
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.loginpagecontainer{
+    min-height: 100vh;
+    height: 100%;  
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.indexbutton{
+    display: inline-block;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-decoration: none; 
+    margin-right: 18px;
+}
+
+.homecontainer{
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.form-field-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.register-container {
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-container {
+    margin: auto;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.stafflogin-container {
+    margin: auto;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+form {
+    max-width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form_title{
+    margin-top: -5px;
+    font-family: initial;
+}
+
+.form_anchor{
+    margin-left: 50px;
+}
+
+label{
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="username"],
+input[type="password"]{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px ;
+    cursor: pointer ;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px
+}
+
+.submit:hover {
+    background-color: #3e8e41;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(237,35,99,1) 0, rgba(124,188,10,1) 100%);
+    margin-top: 22px;
+}
+
+#navigationbuttons {
+    margin-top: -11px ;
+    margin-bottom: -4px ;
+    width: 95%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navigationbuttons {
+    min-width: 270px;
+}
+
+.flex-inline {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigationpagebutton {
+    min-width: 270px;
+    margin-top: 0px;
+}
+.pageButton {
+    min-width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.white, .white:hover {
+    color: white;
+}
+.white-button {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #39424a;
+    transition: background-color 100ms;
+    width: 145px;
+    text-align: center;
+}
+.nav-link {
+    font-weight: normal;
+    font-size: 20px;
+    width: 230px;
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #555;
+    font-size: 36px;
+    margin-bottom: 30px;
+    }
+
+
+.title2{
+    text-align: end;
+}
+
+.tablestyle {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tabledata{
+    padding: 10px;
+    border: 1px solid black;
+}
