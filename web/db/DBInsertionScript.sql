@@ -20,3 +20,20 @@ INSERT INTO IOTBAY.UserLogs VALUES
 (1, 'Registered', '2023-05-14 10:45:00'),
 (2, 'Logged Out', '2023-05-14 11:45:00'),
 (3, 'Logged In', '2023-05-14 12:45:00');
+
+DBinstertionScript:
+
+
+INSERT INTO Order (orderID, email, orderDate, status, paymentID)
+VALUES
+(1, 'gordon.smith@gmail.com', '2023-05-01', 'Submitted', 1),
+(2, 'joseph.parker@gmail.com', '2023-05-10', 'Saved', 2),
+(3, 'tony.stark@gmail.com', '2023-05-20', 'Cancelled', 3);
+
+CREATE TABLE OrderItem (
+    itemID INT PRIMARY KEY,
+    orderID INT,
+    itemName VARCHAR(255),
+    quantity INT,
+    FOREIGN KEY (orderID) REFERENCES Order(orderID)
+);

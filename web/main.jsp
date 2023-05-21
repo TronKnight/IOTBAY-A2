@@ -21,7 +21,7 @@
         <div class="banner" id="Navigation">
             <div id="navigationbuttons">
                 <div class="navigationpagebutton pageButton flex-inline current">
-                    <a href="#" class="white white-button nav-link">Link1</a>
+                    <a href="OrderServlet" class="white white-button nav-link">Order</a>
                 </div>
                 <div class="navigationpagebutton pageButton flex-inline">
                     <a href="userLogs.jsp" class="white white-button nav-link">View Logs</a>

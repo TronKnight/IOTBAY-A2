@@ -36,3 +36,20 @@ CREATE TABLE UserLogs (
     CurrentTime TimeStamp,
     FOREIGN KEY (UserID) REFERENCES Users(UserID)
 );
+
+CREATE TABLE Order (
+    orderID INT PRIMARY KEY,
+    email VARCHAR(255),
+    orderDate DATE,
+    status VARCHAR(255),
+    paymentID INT,
+    FOREIGN KEY (paymentID) REFERENCES Payment(paymentID)
+);
+
+CREATE TABLE OrderItem (
+    itemID INT PRIMARY KEY,
+    orderID INT,
+    itemName VARCHAR(255),
+    quantity INT,
+    FOREIGN KEY (orderID) REFERENCES Order(orderID)
+);
